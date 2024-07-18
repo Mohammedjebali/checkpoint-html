@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>resume</title>
 <link rel="icon" href="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LXNvbGlkaWNvbi13LTAwMi1wLnBuZw.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -12,24 +16,24 @@
 </head>
 
 <body>
-    <nav>
+    <nav style="text-align: center;">
         <a href="#profil">profile</a>
         <a href="#about">about me</a>
         <a href="#contact">contact</a>
     </nav>
-    <div id="profil">
+    <div style="text-align: center;" id="profil">
         <h1>Resume</h1>
-        <hr>
+        
         <img src="../../Downloads/6965453057_4e0eb43443_q.jpg">
-        <ul>
-            <li>Name: mohammed jebali</li>
+        <p style="text-align: center;">
+            <li style="text-align: center;">Name: mohammed jebali</li>
             <li>Email: jebali.mohammed7@gmail.com</li>
             <li>Date of birth: 7 november 2001</li>
-        </ul>
+        </p>
     </div>
-    <div id="about">
+    <div  style="text-align: center; " id="about">
         <h1>About me</h1>
-        <hr>
+        
         <i class="fa-brands fa-facebook"></i>
         <a href="https://www.facebook.com/" target="_blank">facebook</a>
         <br>
@@ -39,9 +43,9 @@
         <i class="fa-brands fa-twitter" target="_blank"></i>
         <a href="https://twitter.com">twitter</a>
     </div>
-    <div id="contact">
+    <div style="text-align: center;" id="contact">
         <h1>contact</h1>
-        <hr>
+        
         <form>
             <label for="username">
                 username
@@ -73,14 +77,16 @@
                 <br><br>
                 <label for="image">
                     pofile picture
-                    <input type="file" id="image" accept="image/*">
+                    <input  type="file" id="image" accept="image/*">
 
                 </label>
                 <br><br>
                 <input type="submit" value="send">
         </form>
     </div>
-
+<footer>
+    simple portfolio exercice jebali mohammed
+</footer>
 </body>
 
 </html>
